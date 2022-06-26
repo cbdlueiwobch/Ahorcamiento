@@ -1,0 +1,9 @@
+var words = ["manzana","pera","holamundo"];
+var intentos = 5;
+var palabraElegida = ""; //Palabra que se eligira//
+var StartButton = document.getElementById("iniciar-juego");
+var txt = "";
+var keyboard = document.querySelector("body");//donde se capturaran los eventos del teclado//
+var ganar = 0;
+var posicion = 230;
+var repeticion = 0;

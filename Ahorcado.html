@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="Detalles.css">
+  </head>
+
+
+  <body>
+    <div style="text-align:center;">
+      <h1 class="titulo">Ahorcado</h1>
+
+
+
+    <!--Boton iniciar-->
+      <button class="btn" id="iniciar-juego">INICIAR JUEGO</button>
+    </div>
+
+
+  <!--nueva palabra container-->
+    <div style="text-align:center">
+      <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra">
+
+
+    <!--boton Agregar palabra-->
+      <button class="btn" onclick= "Agregar()" id="nueva-palabra">AGREGAR PALABRA</button> 
+    </div>
+
+
+    
+
+    <!--canvas board-->
+    <div style ="text-align: center;">
+    <canvas width="1200px" height="800"></canvas>
+  </div>
+
+  
+  <footer>
+    <p><em>Elaborado por: Rafael</em></p>
+    <hr>
+  </footer>
+
+
+    <script type="text/javascript" src="Palabras.js"></script>
+  </body>
+</html>
